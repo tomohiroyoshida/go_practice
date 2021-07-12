@@ -28,7 +28,7 @@ func showMessage(w http.ResponseWriter, r *http.Request) {
 				Expires: time.Unix(1, 0),
 			}
 			http.SetCookie(w, &rc)
-			val, _ := base64.URLEncoding.DecodeString(c.Value) 
+			val, _ := base64.URLEncoding.DecodeString(c.Value)
 			fmt.Fprintln(w, string(val))
 		}
 	}
