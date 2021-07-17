@@ -1,0 +1,76 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "explorer.confirmDelete": false,
+  "eslint.nodeEnv": "",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.workingDirectories": ["./nuxt-app"],
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "C_Cpp.clang_format_style": "Google",
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.tabSize": 2,
+  "[cpp]": {
+    "editor.tabSize": 2,
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "java.format.comments.enabled": false,
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  "editor.fontLigatures": null,
+  "cSpell.userWords": ["Isort", "firestore", "preorder"],
+  "cSpell.enableFiletypes": ["!haskell"],
+  // React + TypeScript 本
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[graphql]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "go.gopath": "/Users/tomo/go/1.16.5",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.inlineSuggest.enabled": true
+}
